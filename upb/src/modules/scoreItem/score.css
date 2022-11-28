@@ -1,0 +1,15 @@
+.score-item {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-items: center;
+    align-items: center;
+    border: 0.1rem solid #9638c9;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.score-item img {
+    width: 2em;
+    height: 2em;
+}
