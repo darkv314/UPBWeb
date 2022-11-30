@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Route } from "react-router-dom"
 import './App.css'
 import Home from './home/Home'
 import UPBMatch from './UPBMatch/UPBMatch'
+import Contactanos from './contactanos/Contactanos'
 
 export default function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ export default function App() {
     {
       path: "/UPBMatch",
       element: <UPBMatch />
+    },
+    {
+      path: "/Contactanos",
+      element: <Contactanos />
     }
   ])
   return (

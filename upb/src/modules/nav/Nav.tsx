@@ -10,7 +10,7 @@ export default function Nav(){
             <div className='nav-links'>
                 <ul>
                     <li><a href='/'>Home</a></li>
-                    <li><a href=''>Contactos</a></li>
+                    <li><a href='/Contactanos'>Contactos</a></li>
                     <li><a href='/UPBMatch'>UPBMatch</a></li>
                     <li><a href=''>Pasantías</a></li>
                 </ul>
