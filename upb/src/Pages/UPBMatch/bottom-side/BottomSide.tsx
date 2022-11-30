@@ -1,7 +1,7 @@
-import SchoolProp from "../../interfaces/SchoolProp";
-import score from "../../db/score";
-import ScoreItem from "../../modules/scoreItem/ScoreItem";
-import Schedule from "../../modules/scheduler/Scheduler";
+import SchoolProp from "../../../interfaces/SchoolProp";
+import score from "../../../db/score";
+import ScoreItem from "../../../components/scoreItem/ScoreItem";
+import Schedule from "../../../components/scheduler/Scheduler";
 import './bottom.css'
 
 export default function BottomSide() {

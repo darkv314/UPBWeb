@@ -1,6 +1,6 @@
-import Card from "../../modules/card-home/Card"
+import Card from "../../../components/card-home/Card"
 import './bottom.css'
-import cards from "../../db/homeCard";
+import cards from "../../../db/homeCard";
 import { Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';

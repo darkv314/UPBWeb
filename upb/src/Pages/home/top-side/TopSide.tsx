@@ -1,5 +1,5 @@
 import './top.css'
-import background from '../../assets/homeback.jpg'
+import background from '../../../assets/homeback.jpg'
 
 export default function TopSide(){
     return (

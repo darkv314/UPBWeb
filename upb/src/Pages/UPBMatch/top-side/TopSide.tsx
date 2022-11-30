@@ -1,5 +1,5 @@
-import EventProp from "../../interfaces/EventProp";
-import background from "../../assets/homeback.jpg"
+import EventProp from "../../../interfaces/EventProp";
+import background from "../../../assets/homeback.jpg"
 import './top.css'
 
 export default function TopSide(props: EventProp){
