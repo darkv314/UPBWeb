@@ -3,6 +3,7 @@ import Facebook from '../../assets/facebook'
 import Instagram from '../../assets/instagram'
 import Twitter from '../../assets/twitter'
 import ReactLogo from '../../assets/react'
+import { Link } from 'react-router-dom'
 
 export default function Footer(){
     return (
@@ -14,12 +15,12 @@ export default function Footer(){
             </div>
             <div className='footer-links'>
                 <ul>
-                    <li><a href="">Contactanos</a></li>
-                    <li><a href="">Sobre Nosotros</a></li>
+                    <li><Link to="/Contactanos">Contactanos</Link></li>
+                    <li><Link to="">Sobre Nosotros</Link></li>
                 </ul>
             </div>
             <div className='footer-logo'>
-                <ReactLogo />
+                <Link to="/"><ReactLogo /></Link>
             </div>
         </footer>
     )

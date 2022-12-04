@@ -33,14 +33,14 @@
     justify-content: space-around;
 }
 
-button {
+/* button {
     width: 40%;
     padding: 0.2em;
     font-family: inherit;
     background-color: white;
     border-radius: 5px;
     border: 1px solid black;
-}
+} */
 
 .description {
     text-align: center;

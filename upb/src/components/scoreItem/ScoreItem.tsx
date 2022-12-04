@@ -1,7 +1,7 @@
-import SchoolProp from "../../interfaces/SchoolProp";
+import ScoreProp from "../../interfaces/ScoreProp";
 import './score.css'
 
-export default function ScoreItem(props: SchoolProp) {
+export default function ScoreItem(props: ScoreProp) {
     return (
         <div className="score-item">
             <img className="score-logo" src={`icons/${props.name}.png`} alt="" />

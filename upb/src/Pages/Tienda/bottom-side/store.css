@@ -1,0 +1,28 @@
+.tienda {
+    font-family: 'Inder';
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+.form-search-box {
+    display: flex;
+    align-items: center;
+}
+
+.form-search-box label{
+    padding-top: 0.2em;
+    margin: 0.5em;
+}
+
+.store-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}

@@ -1,0 +1,34 @@
+.item-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2em;
+}
+
+.item-card img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.item-buttons {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count-button {
+    width: 100%;
+    border: none;
+    border-radius: none;
+    background-color: white;
+    margin: 0.5em 1em;
+}
+
+.count-button:hover {
+    animation: ease-out;
+}

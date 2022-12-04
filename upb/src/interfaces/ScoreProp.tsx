@@ -1,4 +1,4 @@
-export default interface SchoolProp {
+export default interface ScoreProp {
     name: string,
     points: number
 }

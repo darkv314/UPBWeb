@@ -1,18 +1,19 @@
 import './nav.css'
 import ReactLogo from '../../assets/react'
+import { Link } from 'react-router-dom'
 
 export default function Nav(){
     return (
         <nav>
             <div className='nav-logo'>
-                <a href=""><ReactLogo /></a>
+                <Link to='/'><ReactLogo /></Link>
             </div>
             <div className='nav-links'>
                 <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='/Contactanos'>Contactos</a></li>
-                    <li><a href='/UPBMatch'>UPBMatch</a></li>
-                    <li><a href=''>Pasantías</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/Contactanos'>Contactos</Link></li>
+                    <li><Link to='/UPBMatch'>UPBMatch</Link></li>
+                    <li><Link to='/Tienda'>Tienda</Link></li>
                 </ul>
             </div>
         </nav>
