@@ -28,7 +28,7 @@ export default function Schedule() {
     useEffect(() => {
         const fetchAppointments = async () => {
             try {
-                const response = await api.get("/events");
+                const response = await api.get("/events.json");
                 setAppointments(response.data);
             } catch (err: any) {
                 if (err.response) {

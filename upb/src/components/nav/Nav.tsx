@@ -11,7 +11,7 @@ export default function Nav(){
             <div className='nav-links'>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/Contactanos'>Contactos</Link></li>
+                    {/* <li><Link to='/Contactanos'>Contactos</Link></li> */}
                     <li><Link to='/UPBMatch'>UPBMatch</Link></li>
                     <li><Link to='/Tienda'>Tienda</Link></li>
                 </ul>

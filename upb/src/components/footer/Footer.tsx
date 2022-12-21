@@ -9,9 +9,9 @@ export default function Footer(){
     return (
         <footer>
             <div className='icons'>
-                <a href=""><Facebook /></a>
+                <a href="https://www.facebook.com/SEUPBLaPaz"><Facebook /></a>
                 <a href=""><Twitter /></a>
-                <a href=""><Instagram /></a>
+                <a href="https://www.instagram.com/seupblapaz/"><Instagram /></a>
             </div>
             <div className='footer-links'>
                 <ul>

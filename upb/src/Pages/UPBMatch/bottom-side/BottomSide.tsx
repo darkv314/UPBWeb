@@ -10,7 +10,7 @@ export default function BottomSide() {
   useEffect(() => {
     const fetchScores = async () => {
       try {
-        const response = await api.get("/scores");
+        const response = await api.get("/scores.json");
         response.data.sort(function (a: any, b: any) {
           return b.points - a.points;
         });

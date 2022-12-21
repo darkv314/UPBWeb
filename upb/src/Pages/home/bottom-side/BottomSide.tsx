@@ -13,7 +13,7 @@ export default function BottomSide() {
   useEffect(() => {
     const fetchCards = async () => {
       try {
-        const response = await api.get("/homeCards");
+        const response = await api.get("/homeCards.json");
         setCards(response.data);
       } catch (err: any) {
         if (err.response) {

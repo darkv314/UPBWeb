@@ -13,6 +13,7 @@ footer {
 
 .footer-links {
     justify-self: center;
+    align-self: center;
 }
 
 .footer-links ul{
@@ -34,6 +35,7 @@ footer {
 }
 
 .icons {
+    min-width: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -50,4 +52,19 @@ footer {
 .footer-logo {
     justify-self: end;
     padding: 0;
+}
+
+@media (max-width:500px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* .footer-logo {
+        display: none;
+    } */
+    
+    .footer-links {
+        display: none;
+    }
 }
